@@ -1,0 +1,49 @@
+/* globals.css - Generated from CMS Design Template */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Merriweather:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Colors */
+  --color-primary: #2A6F6F;
+  --color-secondary: #A4D0D0;
+  --color-accent: #FF8C42;
+  --color-background: #FFFFFF;
+  --color-surface: #F8F9FA;
+  --color-text: #343A40;
+  --color-text-muted: #6C757D;
+
+  /* Typography */
+  --font-heading: "Playfair Display", sans-serif;
+  --font-body: "Merriweather", sans-serif;
+  --font-heading-weight: 700;
+
+  /* Spacing */
+  --spacing-section: 6rem;
+  --spacing-element: 1.5rem;
+
+  /* Layout */
+  --border-radius: 0;
+  --shadow: none;
+  
+  /* Hero Overlay */
+  --hero-overlay-color: #000000;
+  --hero-overlay-opacity: 0.5;
+  --hero-text-color: #ffffff;
+  
+  /* Ring offset for focus states */
+  --ring-offset-background: #FFFFFF;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-heading-weight);
+}
